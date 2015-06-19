@@ -10,7 +10,7 @@ RUN /env/bin/pip install -r /app/requirements.txt
 COPY app/ /app/
 
 #Add in your .p12 Key to the repository this is installed locally on the server and in a private github repo
-COPY /usr/share/performance_secure_key/secure_key.p12 /app/
+#COPY /usr/share/performance_secure_key/secure_key.p12 /app/
 
 EXPOSE 5000
 
