@@ -102,7 +102,7 @@ def get_conversion_data(service, profile_id):
       start_date=start_of_month,
       end_date=end_of_month,
       metrics='ga:sessions',
-      segment='gaid::-102').execute()
+      segment='gaid::-9').execute()
 
 def get_loyalty_data(service, profile_id):
 
