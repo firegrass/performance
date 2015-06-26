@@ -1,5 +1,6 @@
 httplib2
 flask
+Flask-Cache
 python-dateutil
 google-api-python-client
 oauth2client
