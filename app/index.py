@@ -7,7 +7,7 @@ app = Flask(__name__)
 cache = Cache(app,config={'CACHE_TYPE': 'simple'})
 
 @app.route("/")
-@cache.cached(timeout=50)
+@cache.cached(timeout=172800)
 def stats():
   return render_template('index.html', stats=get_dashboard_stats())
  
